@@ -1,0 +1,6 @@
+Some programs will return a table, some will return raised notices
+there wasn't a spec for return value so I did what was easiest for the program
+
+For P3 Don't include the balance which is 0, only insert the values you need
+ie.
+p3(Account, Name, Province, Limit)

@@ -29,7 +29,7 @@ BEGIN
 
   insert into Customer values ('A1', 'Smith', 'ONT', 2515.00, 2000.00);
   insert into Customer values ('A2', 'Jones', 'BC', 2014.00, 2500.00);
-  insert into Customer values ('A3', 'Doc', 'ONT', 1000.00, 1000.00);
+  insert into Customer values ('A3', 'Doc', 'ONT', 150.00, 1000.00);
 
   insert into Transaction values ('T1', 'V2', 'A1', '2015-07-15', 1325.00);
   insert into Transaction values ('T2', 'V2', 'A3', '2014-12-16', 1900.00);

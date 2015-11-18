@@ -38,9 +38,9 @@ BEGIN
     exit when not found;
     IF(Vno = vNum) then
       RAISE NOTICE'-----------------';
-      RAISE NOTICE'Vendor Number Name: %', Vno;
+      RAISE NOTICE'Vendor Number: %', Vno;
       RAISE NOTICE'Vendor Name: %', Vname;
-      RAISE NOTICE'City: %', City;
+      RAISE NOTICE'Vendor City: %', City;
       RAISE NOTICE'Vendor Balance: %', CAST(VVbalance AS NUMERIC(10,2));
       RAISE NOTICE'-----------------';
     end if;
@@ -58,9 +58,9 @@ BEGIN
       RAISE NOTICE'-----------------';
       RAISE NOTICE'Customer Account: %', CAccount;
       RAISE NOTICE'Customer Name: %', Cname;
-      RAISE NOTICE'Province: %', Province;
+      RAISE NOTICE'Customer Province: %', Province;
       RAISE NOTICE'Customer Balance: %', CAST(CCBalance AS NUMERIC(10,2));
-      RAISE NOTICE'Vendor Limit: %', CAST(CLimit AS NUMERIC(10,2));
+      RAISE NOTICE'Customer Limit: %', CAST(CLimit AS NUMERIC(10,2));
       RAISE NOTICE'-----------------';
     end if;
     end loop;
